@@ -102,4 +102,11 @@ h2 {
    
 }
 
-
+.test {
+    font-size: medium;
+    color: #fff;
+    padding: 4px 10px;
+    margin: 15px 20px 15px 20px;
+    background: #69c9ff;
+}
+.test:hover { background: #89d3fd; }
