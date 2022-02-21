@@ -21,7 +21,7 @@ html {
 body{
 	height: 100vh;
 	width: 100vw;
-	background: linear-gradient(#ffffff,#69c9ff);
+	background: linear-gradient(#ffffff,#2fe6ff);
 }
 
 .all {
@@ -32,29 +32,24 @@ body{
 	background-position: center center;
 }
 
-.hrefto {
-	height: 8%;
-	width: 8%;
-}
-
 .href1 {
-	padding: 7.5% 0 0 48.25%;
+	padding: 7vh 0 0 45.5vw;
 }
 
 .href2 {
-	padding: 3.75% 0 0 61%;
+	padding: 0 0 0 60vw;
 }
 
 .href3 {
-	padding: 2.75% 0 0 38.5%;
+	padding: 0 0 0 34vw;
 }
 
 .href4 {
-	padding: 3.75% 0 0 57.5%;
+	padding: 0 0 0 55.5vw;
 }
 
 .href5 {
-	padding: 4% 0 0 36.5%;
+	padding: 0 0 0 31.5vw;
 }
 
 a.text:active, /* активная/посещенная ссылка */
@@ -67,13 +62,18 @@ a.text {
 a:hover::after { 
 	content: attr(data-title);
 	position: absolute;
-	left: 15%; top: 30%;
+	left: 15%; top: 5%;
 	z-index: 1;
-	background: #69c9ff;
+	background: #2fe6ff;
 	font-family: Arial, sans-serif;
 	font-size: 30px;
 	padding: 5px 10px; 
-	border: 3px solid #00a3ff;
+	border: 3px solid #1394c5;
 	color: #fff;
+}
+
+.a {
+	height: 16vh;
+	width: 9vw;
 }
 

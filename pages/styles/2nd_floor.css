@@ -22,7 +22,7 @@ body {
 
     width: 100vw;
     padding: 4vh 0 4vh 0;
-    background: linear-gradient(#69c9ff,#f0f5f8);
+    background: linear-gradient(#2fe6ff,#f0f5f8);
 }
 
 .container {
@@ -75,18 +75,18 @@ h2 {
     color: #fff; 
     text-decoration: none; 
     user-select: none; 
-    background:  linear-gradient(90deg,#f0f5f8,#69c9ff,#f0f5f8);
+    background:  linear-gradient(90deg,#f0f5f8,#2fe6ff,#f0f5f8);
     outline: none; 
     border: 0px;
     padding: 4px 40px 4px 40px;
 }
-.btn1:hover { background:  linear-gradient(90deg,#f0f5f8,#89d3fd,#f0f5f8); }
+.btn1:hover { background:  linear-gradient(90deg,#f0f5f8,#5decff,#f0f5f8); }
 
 .btn {
     margin-top: 3px;
     margin-bottom: 5px;
     border: 0px;
-    background:  linear-gradient(90deg,#f0f5f8,#69c9ff,#f0f5f8);
+    background:  linear-gradient(90deg,#f0f5f8,#2fe6ff,#f0f5f8);
     justify-content: center;
     padding-left: auto;
     padding-right: auto;
@@ -95,7 +95,7 @@ h2 {
     text-align: center;
 }
 
-.btn:hover { background: linear-gradient(90deg,#f0f5f8,#89d3fd,#f0f5f8); }
+.btn:hover { background: linear-gradient(90deg,#f0f5f8,#5decff,#f0f5f8); }
 
 .txt {
     font-family: sans-serif, TeX Gyre Adventor, URW Gothic L, sans-serif;
@@ -107,6 +107,6 @@ h2 {
     color: #fff;
     padding: 4px 10px;
     margin: 15px 20px 15px 20px;
-    background: #69c9ff;
+    background: #2fe6ff;
 }
-.test:hover { background: #89d3fd; }
+.test:hover { background: #5decff; }

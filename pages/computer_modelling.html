@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styles/2nd_floor.css">
+	<title>Cyber-security</title>
+</head>
+<body>
+	<div class="container">
+		
+		<button class="btn" onclick="document.getElementById('inf1').style.display='block';">
+			<h2>Модели и формы их представления</h2>
+		</button>
+
+		<div id="inf1" class="inf">
+			<p class="txt">
+				Модель – объект или процесс, который для различных целей рассматривается вместо другого объекта или процесса. На данный момент широко распространены компьютерные модели, представляющие собой информационную модель в виде файла на компьютерном носителе и ее изображение на экране компьютера. <br>
+				Создание и использование моделей для решения научных и практических задач называется моделированием.
+			</p>
+
+			<button class="btn1" onclick="document.getElementById('inf1').style.display='none';">Свернуть</button>
+		</div>
+
+		<button class="btn" onclick="document.getElementById('inf2').style.display='block';">
+			<h2>Цели компьютерного моделирования</h2>
+		</button>
+
+		<div id="inf2" class="inf">
+			
+			<img src="styles/img/Цели_компьютерного_моделирования.PNG" alt=""  class="im">
+
+			<button class="btn1" onclick="document.getElementById('inf2').style.display='none';">Свернуть</button>
+		</div>
+
+		<button class="btn" onclick="document.getElementById('inf3').style.display='block';">
+			<h2>Современное моделирование</h2>
+		</button>
+
+		<div id="inf3" class="inf">
+			<p class="txt">
+				В современном моделировании реализуется системных подход, состоящий в том, что моделируемый объект представляется в модели как система, т.е. совокупности объектов. Элементы системы могут быть естественными (существующие и просто выделяемые) и искусственными объектами (несуществующие условные единицы). <br>
+				Математическая модель системы называется динамической, если она учитывает изменение времени. 
+			</p>
+
+			<button class="btn1" onclick="document.getElementById('inf3').style.display='none';">Свернуть</button>
+		</div>
+
+		<button class="btn" onclick="document.getElementById('inf4').style.display='block';">
+			<h2>Элементы построения динамических моделей систем</h2>
+		</button>
+
+		<div id="inf4" class="inf">
+			
+			<img src="styles/img/Элемент_построения_динамических_моделей_систем.PNG" alt=""  class="im">
+
+			<button class="btn1" onclick="document.getElementById('inf4').style.display='none';">Свернуть</button>
+		</div>
+
+		<button class="btn" onclick="document.getElementById('inf5').style.display='block';">
+			<h2>Метод Монте-Карло</h2>
+		</button>
+
+		<div id="inf5" class="inf">
+			<p class="txt">
+				Метод Монте-Карло, названный в честь одного из самых знаменитых казино мира, основан на использовании генератора случайных чисел. Также значения генераторов случайных чисел называют псевдослучайными числами, поскольку получены они были посредством строгих математических методов и, следовательно, они являются предсказуемыми. 
+				<br>
+				На языке PascalABC генератор случайных чисел реализован в стандартной функции random(). 
+				<br>
+				В электронных таблицах MS Excel генератор случайных чисел реализован в функциях СЛЧИС() и СЛУЧМЕЖДУ(). 
+				<br>
+				Рассмотреть метод Монте-Карло на примере задачи определения площади некоторой плоской фигуры.
+				<br>
+				Пусть имеется плоская фигура, которая находится внутри прямоугольника (будем называть его базовым) с известной площадью S. Засыпем мысленно прямоугольник тончайшем слоем песка. Если подсчитать общее число песчинок n и число k тех песчинок, которые попали на фигуру, то приближенно площадь фигуры можно считать по формуле C = S * k : n, где С – площадь фигуры. 
+				<br>
+				Таким образом метод Монте-Карло освобождает нас от необходимости самим разбрасывать и подсчитывать песчинки. 
+			</p>
+
+			<button class="btn1" onclick="document.getElementById('inf5').style.display='none';">Свернуть</button>
+		</div>
+
+		<button class="btn" onclick="document.getElementById('inf6').style.display='block';">
+			<h2>Моделирование динамики численности популяций</h2>
+		</button>
+
+		<div id="inf6" class="inf">
+			<p class="txt">
+				Для описания динамики численности популяций ученые используют несколько математических моделей. Для двух популяций используются модели взаимодействия двух видов. Среди них модель «хищник-жертва», модель конкуренции двух видов за ресурсы питания, модели взаимовыгодного взаимодействия (симбиоза).
+			</p>
+
+			<img src="styles/img/Моделирование_динамики_численности.png" alt=""  class="im">
+
+			<div class="list">			
+				<ul class="sp">
+					<li class="el">a — коэффициент естественного прироста (a > 0)</li>
+					<li class="el">b — коэффициент смертности жертв от внутривидовой конкуренции (b > 0)</li>
+					<li class="el">c — коэффициент смертности жертв от хищников (c > 0)</li>
+					<li class="el">d — коэффициент смертности хищников (d > 0)</li>
+					<li class="el">f — коэффициент, определяющий прирост численности хищников (f > 0)</li>
+					<li class="el">L — критическая популяция </li>
+					<li class="el">Z — количество отловленных особей</li>
+				</ul> 
+			</div>
+
+			<button class="btn1" onclick="document.getElementById('inf6').style.display='none';">Свернуть</button>
+		</div>
+
+		<button class="btn">
+			<a href="../index.html">
+				<h2>Назад</h2>
+			</a>
+		</button>
+		
+	</div>
+</body>
+</html>
