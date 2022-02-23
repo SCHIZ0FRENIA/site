@@ -110,3 +110,12 @@ h2 {
     background: #2fe6ff;
 }
 .test:hover { background: #5decff; }
+
+.author > img {
+    width: 40%;
+    height: 60%;
+}
+.author {
+    display: flex;
+    flex-direction: row;
+}
