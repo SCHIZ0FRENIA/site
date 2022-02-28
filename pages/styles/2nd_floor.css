@@ -119,3 +119,8 @@ h2 {
     display: flex;
     flex-direction: row;
 }
+
+a {
+    color: #fff;
+    font-family: sans-serif, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
