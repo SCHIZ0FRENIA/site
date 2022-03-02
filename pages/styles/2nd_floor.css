@@ -99,7 +99,7 @@ h2 {
 
 .txt {
     font-family: sans-serif, TeX Gyre Adventor, URW Gothic L, sans-serif;
-   
+    margin: 10px 0 10px 0;
 }
 
 .test {
