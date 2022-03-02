@@ -70,6 +70,7 @@ a:hover::after {
 	padding: 5px 10px; 
 	border: 3px solid #1394c5;
 	color: #fff;
+	border-radius: 10px;
 }
 
 .a {
