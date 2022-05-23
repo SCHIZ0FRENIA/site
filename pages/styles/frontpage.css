@@ -32,8 +32,14 @@ body{
 	background-position: center center;
 }
 
+.txt1 {
+	padding: 1vh 0 0 44.5vw;
+	font-size: 40px;
+	color: #fff;
+}
+
 .href1 {
-	padding: 7vh 0 0 45.5vw;
+	padding: 1vh 0 0 45.5vw;
 }
 
 .href2 {
@@ -62,7 +68,21 @@ a.text {
 a:hover::after { 
 	content: attr(data-title);
 	position: absolute;
-	left: 15%; top: 5%;
+	left: 5%; top: 30%;
+	z-index: 1;
+	background: #2fe6ff;
+	font-family: Arial, sans-serif;
+	font-size: 30px;
+	padding: 5px 10px; 
+	border: 3px solid #1394c5;
+	color: #fff;
+	border-radius: 10px;
+}
+
+.txt1:hover::after { 
+	content: attr(data-title);
+	position: absolute;
+	left: 5%; top: 15%;
 	z-index: 1;
 	background: #2fe6ff;
 	font-family: Arial, sans-serif;
