@@ -33,9 +33,10 @@ body{
 }
 
 .txt1 {
-	padding: 1vh 0 0 44.5vw;
+	padding: 1vh 0 0 43vw;
 	font-size: 40px;
 	color: #fff;
+	text-shadow: 1px 1px 3px black;
 }
 
 .href1 {
