@@ -88,6 +88,7 @@ a:hover::after {
 	background: #2fe6ff;
 	font-family: Arial, sans-serif;
 	font-size: 30px;
+	text-shadow: 0px 0px 0px transparent;
 	padding: 5px 10px; 
 	border: 3px solid #1394c5;
 	color: #fff;
