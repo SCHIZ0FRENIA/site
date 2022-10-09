@@ -61,7 +61,7 @@ h1 {
 }
 
 h2 {
-    color: azure;
+    color: #169ed1;
 }
 .inf {
     background:  #141414 rgba(0, 0, 0, 0.5);
@@ -72,7 +72,7 @@ h2 {
     font-size: 16px;
     margin-top: 5px;
     margin-bottom: 3px;
-    color: #fff; 
+    color: #169ed1;
     text-decoration: none; 
     user-select: none; 
     background:  linear-gradient(90deg,#f0f5f8,#2fe6ff,#f0f5f8);
@@ -104,7 +104,7 @@ h2 {
 
 .test {
     font-size: medium;
-    color: #fff;
+    color: #169ed1;
     padding: 4px 10px;
     margin: 15px 20px 15px 20px;
     background: #2fe6ff;
@@ -121,6 +121,6 @@ h2 {
 }
 
 a {
-    color: #fff;
+    color: #169ed1;
     font-family: sans-serif, TeX Gyre Adventor, URW Gothic L, sans-serif;
 }
