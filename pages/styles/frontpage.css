@@ -21,7 +21,7 @@ html {
 body{
 	height: 100vh;
 	width: 100vw;
-	background: linear-gradient(#ffffff,#2fe6ff);
+	background: linear-gradient(#2fe6ff,#ffffff);
 }
 
 .all {
