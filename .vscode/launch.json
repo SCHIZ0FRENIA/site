@@ -8,7 +8,7 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Open web-design.html",
-            "file": "D:\\Программирование\\Прикладная информатика проект\\site\\pages\\web-design.html"
+            "file": "D:\\Программирование\\Прикладная информатика проект\\project\\pages\\web-design.html"
         }
     ]
 }
